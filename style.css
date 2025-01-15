@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+.header{
+    width: auto;
+    height: 130px;
+    border: 3px solid green;
+    background-color: aliceblue;
+}
+ul{
+display: flex;
+justify-content: space-around;
+}
+li{
+    margin-top: 30px;
+    font-size: 20px;
+    color: blue;
+    list-style: none;
+    transition: 1s;
+}
+li:hover{
+    color: black;
+    box-shadow: 0px 10px 15px solid rgb(255, 38, 0);
+    transition: 300ms;
+}
+.con1{
+    width: auto;
+    height: 900px ;
+    background-color: lightblue;
+}
+.con2{
+    width: auto;
+    height: 900px ;
+    background-color: rgb(173, 230, 176);
+}
+
